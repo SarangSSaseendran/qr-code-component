@@ -3,11 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <meta
       name="description"
-      content="Solution to QR code component challenge by Frontend Mentor."
+      content="Scan the QR code to visit Frontend Mentor and improve your front-end skills by building projects. A solution to the Frontend Mentor QR code component challenge."
     />
+    <meta name="author" content="Sarang S Saseendran" />
+    <meta
+      name="keywords"
+      content="QR code, Frontend Mentor, front-end skills, web development, coding challenge."
+    />
+    <meta property="og:title" content="Frontend Mentor | QR code component" />
+    <meta
+      property="og:description"
+      content="Scan the QR code to visit Frontend Mentor and improve your front-end skills by building projects. A solution to the Frontend Mentor QR code component challenge."
+    />
+    <meta property="og:image" content="./images/image-qr-code.png" />
+    <meta
+      property="og:url"
+      content="https://www.frontendmentor.io/challenges/qr-code-component-iux_Nq2jr"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Frontend Mentor | QR code component" />
+    <meta
+      name="twitter:description"
+      content="Scan the QR code to visit Frontend Mentor and improve your front-end skills by building projects. A solution to the Frontend Mentor QR code component challenge."
+    />
+    <meta name="twitter:image" content="./images/image-qr-code.png" />
 
     <link
       rel="icon"
@@ -18,43 +39,48 @@
 
     <title>Frontend Mentor | QR code component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
-      <div class="container">
+      <div class="container" role="region" aria-labelledby="card-title">
         <img
           id="qr-code-image"
           class="image"
           src="./images/image-qr-code.png"
-          alt="QR code to Frentend Mentor(https://www.frontendmentor.io)"
+          alt="QR code linking to Frontend Mentor website."
         />
-        <h1 class="title">
-          Improve your front-end skills by building projects Scan the QR code to
-          visit
-        </h1>
-        <p class="description">
-          Frontend Mentor and take your coding skills to the next level
-        </p>
+        <div class="texts">
+          <h1 id="card-title" class="title">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="description">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
       </div>
     </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-        Frontend Mentor
-      </a>
-      . Coded by
-      <a href="">Sarang S Saseendran</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a href="https://github.com/SarangSSaseendran">Sarang S Saseendran</a>.
+      </div>
+    </footer>
   </body>
 </html>
