@@ -71,16 +71,16 @@ I plan to continue focusing on:
 
 ### Useful resources
 
-  - MDN Web Docs - HTML Meta Tags - Comprehensive documentation on meta tags.
+  - [MDN Web Docs - HTML Meta Tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) - Comprehensive documentation on meta tags.
 
-  - MDN Web Docs - ARIA Roles - Detailed explanations of ARIA roles and their usage.
+  - [MDN Web Docs - ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles) - Detailed explanations of ARIA roles and their usage.
 
-  - CSS-Tricks - rel="noopener"  - An excellent article explaining the security implications of target="_blank".
+  - [CSS-Tricks - rel="noopener"](https://css-tricks.com/use-target_blank/)  - An excellent article explaining the security implications of target="_blank".
 
-  - W3Schools - CSS object-fit Property - Useful for controlling how images fit their containers.
+  - [W3Schools - CSS object-fit Property](https://www.w3schools.com/css/css3_object-fit.asp) - Useful for controlling how images fit their containers.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Frontend Mentor - [@SarangSSaseendran](https://www.frontendmentor.io/profile/SarangSSaseendran)
+- GitHub - [@SarangSSaseendran](https://github.com/SarangSSaseendran)
